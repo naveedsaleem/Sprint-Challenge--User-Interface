@@ -144,3 +144,148 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.container .header-image {
+    margin: 25px 0px;
+}
+
+header {
+	display: flex;
+	padding-top: 10px;
+}
+
+header nav {
+	display: flex;
+	width: 763px;
+	justify-content: space-around;
+    align-items: center;
+    padding-top: 28px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+	font-size: 12px;
+}
+
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
+}
+
+/*  About page styling */
+
+.about-page .top-content .text-container {
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.about-page .top-content .text-container  h2 {
+ font-weight: bold;
+} 
+
+.about-page .middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-page .middle-content .text-container {
+    width: 47%;    
+    margin: 20px 1.5%;
+    color: black;    
+    align-items: center;
+    justify-content: center;
+}
+
+.about-page .middle-content .text-container button {
+    height: 39px;
+    margin: 15px 0px;
+    width: 126px;
+    background-color: white;
+    border-radius: 7.2px;
+    border: 1.5px solid black;
+}
+
+.about-page .middle-content .text-container h4 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.about-page .middle-content {
+    margin-bottom: 0px;
+    border-bottom: 0px dashed black;
+}
+
+.about-page .middle-content .text-container {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+/*  Contact us page styling */
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.contact-container {
+    padding-bottom: 20px;
+}
